@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<HEAD></HEAD>
+<TITLE>LESSON5-FORM</TITLE>
+<FORM action="http://localhost:3000/LESSON-05/Server.PHP"
+        method="post">
+    <div>
+        Họ và tên:<input    type="text"
+                            name="fullname"
+                            value="SnaahC">
+    </div>
+    <div>
+        Giới tính: 
+        Nam<input   type="radio"
+                            name="sex"
+                            value="0"
+                            checked>,
+        Nữ<input   type="radio"
+                            name="sex"
+                            value="1">
+    </div>
+    <div>
+        Quốc tịch:
+        <select name="nation">
+            <option value="0">VietNam</option>
+            <option value="1">Japan</option>
+            <option value="2">China</option>
+            <option value="3">Korea</option>
+        </select>
+    </div>
+    <input type="submit" value="Đăng ký">
+    
+</FORM>

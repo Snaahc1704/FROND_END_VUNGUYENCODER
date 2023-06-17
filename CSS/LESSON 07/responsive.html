@@ -1,0 +1,35 @@
+<head></head>
+<meta name="viewport" content="width=device-width">
+<!--media Query-->
+<style>
+    *{  font-size: 60px;}
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container > div{
+        background-color: yellow;
+        padding: 10px;
+        margin: 10px;
+    }
+    @media(min-width: 300px)  {
+        .container{
+            flex-direction: row;
+        }
+    
+    }
+    @media(min-width: 600px)  {
+        .container > div{
+        background-color: pink;
+        padding: 10px;
+        margin: 10px;
+    
+    }
+}
+</style>
+
+<div class="container">
+   <div>Một</div>
+   <div>Hai</div>
+   <div>Ba</div>
+</div>
